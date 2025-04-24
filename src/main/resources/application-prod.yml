@@ -1,0 +1,7 @@
+spring:
+  profiles: dev
+  datasource:
+    url: ${JDBC_DATABASE_URL:jdbc:postgresql://localhost:5432/ticket-consumer-database}
+    username: ${JDBC_DATABASE_USERNAME:root}
+    password: ${JDBC_DATABASE_PASSWORD:root}
+    driver-class-name: org.postgresql.Driver

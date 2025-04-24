@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ticket-consumer-service
+  profiles:
+    active: dev
+  kafka:
+    bootstrap-servers: localhost:9092
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 8081
+
